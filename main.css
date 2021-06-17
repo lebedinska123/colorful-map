@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #154360;
+
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+.colorful-map-container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    border-radius: 3px;
+    transition: 7s ease;
+
+    background-color: #566573;
+}
+
+.cell:hover {
+    transition-duration: 0s;
+}
